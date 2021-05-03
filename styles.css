@@ -22,7 +22,7 @@ footer {
     height: 10vh;
     background-color: rgb(255, 228, 233);
 }
-a {
+.head-txt .foot-txt a {
     margin-right: 10px;
     text-decoration: none;
     font-size: 2rem;
