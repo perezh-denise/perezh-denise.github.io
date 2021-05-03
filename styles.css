@@ -9,12 +9,12 @@ html {
     font-size: 62.5%;
 }
 header {
-    height: 15vh;
+    height: 20vh;
     text-align: end;
     background-color: rgb(255, 228, 233);
 }
 main {
-    height: 75vh;
+    height: 80vh;
     text-align: center;
     background-color: rgb(255, 249, 250);
 }
@@ -25,7 +25,7 @@ footer {
 a {
     margin-right: 10px;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     font-weight: bold;
 }
