@@ -11,7 +11,7 @@ html {
 header {
     height: 15vh;
     text-align: end;
-    background-color: rgb(255, 218, 224);
+    background-color: rgb(255, 228, 233);
 }
 main {
     height: 75vh;
@@ -20,7 +20,7 @@ main {
 }
 footer {
     height: 10vh;
-    background-color:  rgb(255, 218, 224);
+    background-color: rgb(255, 228, 233);
 }
 a {
     margin-right: 10px;
