@@ -39,10 +39,6 @@ main .main-pic {
     display: flex;
     justify-content: center;
 }
-main .main-pic .img-pic {
-    height: 100px;
-    width: 400px;
-}
 main .main-title {
     color: black;
     font-weight: 300;
