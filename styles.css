@@ -13,29 +13,27 @@ header {
     text-align: end;
     background-color: rgb(255, 228, 233);
 }
-main {
-    height: 80vh;
-    text-align: center;
-    background-color: rgb(255, 249, 250);
+.nav-header {
+    display: flex;
+    justify-content: space-between;
 }
-footer {
-    height: 10vh;
-    background-color: rgb(255, 228, 233);
+.nav-header .header-left {
+    align-items: flex-start;
 }
-.head-txt .foot-txt a {
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 2rem;
-    color: black;
+.nav-header .header-right {
+    align-items: flex-end;
 }
-.nav-header .photo {
+.nav-header .header-left .photo {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-top: 20px;
     margin-right: 20px;
 }
-main .main-pic {
+main {
+    height: 70vh;
+    text-align: center;
+    background-color: rgb(255, 249, 250);
     display: flex;
     justify-content: center;
 }
@@ -43,4 +41,14 @@ main .main-title {
     color: black;
     font-weight: 300;
     font-size: 5rem;
+}
+footer {
+    height: 10vh;
+    background-color: rgb(255, 228, 233);
+}
+.foot-txt a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
 }
