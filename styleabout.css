@@ -66,20 +66,22 @@ main .main-section {
 main .main-title {
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 5rem;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    font-size: 3.5rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
 }
 .main-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 80px 0 80px;
-}
-.main-content a {
     color: black;
     font-size: 2rem;
-    text-decoration: none;
+}
+.main-content .photobig {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
 }
 footer {
     height: 10vh;
