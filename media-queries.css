@@ -1,0 +1,6 @@
+@media (max-width: 900px) {
+   .main-content-about {
+       display: grid;
+       grid-template-rows: 2fr;
+   }
+}
