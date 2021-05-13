@@ -1,6 +1,16 @@
 @media (max-width: 900px) {
-   .main-content-about {
+    .main-content-about {
        display: grid;
        grid-template-rows: 2fr;
    }
+   .main-content-about p {
+        font-size: 2rem;
+        word-wrap: normal;
+        width: 30rem;
+    }
+    .main-content-about .photobig {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 10%;
+    }
 }
