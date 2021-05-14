@@ -51,10 +51,8 @@ header {
 main {
     height: 75vh;
     background-color: rgb(255, 249, 250);
-}
-main .main-section {
-    display:grid;
-    grid-column:auto;
+    display: flex;
+    flex-direction: column;
 }
 main .main-title {
     color: black;
@@ -66,16 +64,19 @@ main .main-title {
 }
 .main-content-about {
     display: flex;
-    color: black;
-    font-size: 0.8rem;
-    word-wrap: normal;
-    margin-left: 2rem;
+    justify-content: space-evenly;
 }
-.main-content-about .photobig {
+.main-content-about-text {
+    margin-left: 2rem;
+    color: black;
+    font-size: 2rem;
+    word-wrap: normal;
+    width: 50%;
+}
+.photobig img {
     width: 25rem;
     height: 25rem;
     border-radius: 10%;
-    margin-top: 1rem;
 }
 footer {
     height: 10vh;
