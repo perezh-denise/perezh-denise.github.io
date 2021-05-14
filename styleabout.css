@@ -4,17 +4,21 @@
     padding: 0;
 }
 html {
-    width: 100vw;
-    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
+    min-width: 320px;
 }
 header {
-    height: 20vh;
+    height: 15vh;
     text-align: end;
     background-color: rgb(255, 228, 233);
 }
 .nav-header {
+    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .nav-header .header-left {
@@ -24,28 +28,28 @@ header {
     align-items: flex-end;
 }
 .nav-header .header-left .photo {
-    width: 8rem;
+    width: 6rem;
     border-radius: 50%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-left: 3rem;
 }
 .nav-header .header-right .linkedn {
-    width: 6rem;
+    width: 4rem;
     margin-top: 2rem;
 }
 .nav-header .header-right .github {
-    width: 10rem;
+    width: 8rem;
 }
 .nav-header .header-right .instagram {
-    width: 6rem;
+    width: 4.3rem;
     margin-right: 2rem;
 }
 .nav-header .header-right .ingles {
-    width: 6rem;
+    width: 5rem;
     margin-right: 2rem;
 }
 main {
-    height: 70vh;
+    height: 75vh;
     background-color: rgb(255, 249, 250);
 }
 main .main-section {
@@ -55,25 +59,23 @@ main .main-section {
 main .main-title {
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3.5rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
     text-align: center;
 }
 .main-content-about {
     display: flex;
-    justify-content: space-around;
     color: black;
-    font-size: 2rem;
+    font-size: 0.8rem;
     word-wrap: normal;
-    width: 100rem;
-    margin-left: 8rem;
+    margin-left: 2rem;
 }
 .main-content-about .photobig {
     width: 25rem;
     height: 25rem;
     border-radius: 10%;
-    margin-left: 8rem;
+    margin-top: 1rem;
 }
 footer {
     height: 10vh;
