@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    min-width: 320px;
+}
+header {
+    height: 15vh;
+    text-align: end;
+    background-color: rgb(255, 228, 233);
+}
+.nav-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-header .header-left {
+    align-items: flex-start;
+}
+.nav-header .header-right {
+    align-items: flex-end;
+}
+.nav-header .header-left .photo {
+    width: 6rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+.nav-header .header-right .linkedn {
+    width: 4rem;
+    margin-top: 2rem;
+}
+.nav-header .header-right .github {
+    width: 8rem;
+}
+.nav-header .header-right .instagram {
+    width: 4.3rem;
+    margin-right: 2rem;
+}
+.nav-header .header-right .ingles {
+    width: 5rem;
+    margin-right: 2rem;
+}
+main {
+    height: 75vh;
+    background-color: white;
+}
+main .main-section {
+    display:grid;
+    grid-column:auto;
+}
+main .main-title {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+.main-content a {
+    color: rgba(70, 70, 70, 0.76);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align:end;
+    padding-right: 2rem;
+}
+.main-content img {
+    width: 7rem;
+    height: 7rem;
+}
+.main-pics {
+    padding-top: 8rem;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main-pics img {
+    position: relative;
+    scroll-snap-align: center;
+    min-width: 300px;
+    max-width: 300px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+footer {
+    height: 10vh;
+    background-color: rgb(255, 228, 233);
+}
+footer a {
+    padding-top: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+}
